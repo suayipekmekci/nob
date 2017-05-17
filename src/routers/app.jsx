@@ -11,7 +11,7 @@ NProgress.configure({ showSpinner: false });
 
 const history = useBasename(createHistory)({
    queryKey: false,
-   basename: '/#'
+   basename: '/'
 })
 var rootRoute = ""
 if(PostModule.accessTokenParams() == ""){
