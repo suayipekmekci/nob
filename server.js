@@ -67,16 +67,16 @@ if (!process.env.PRODUCTION) {
   var config = require('./webpack.local.config');
 
   new WebpackDevServer(webpack(config), {
-    headers: { "Access-Control-Allow-Origin": "http://localhost:8080",
-    publicPath: config.output.publicPath,
-    hot: true,
-    noInfo: true,
-    historyApiFallback: true
-  }).listen(9090, 'localhost', function (err, result) {
-    if (err) {
-      console.log(err);
-    }
-  });
+      headers: { "Access-Control-Allow-Origin": "http://localhost:8080", "Access-Control-Allow-Credentials": "true" },
+      publicPath: config.output.publicPath,
+      hot: true,
+      noInfo: true,
+      historyApiFallback: true
+    }).listen(9090, 'localhost', function (err, result) {
+      if (err) {
+        console.log(err);
+      }
+    });
 }
 
 
