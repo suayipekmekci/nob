@@ -1,0 +1,38 @@
+.boxTitle {
+    font-size: 17px;
+    color: #515d6e;
+    font-weight: bold;
+    border-bottom: 1px solid rgba(81, 93, 110, 0.4);
+    -webkit-box-shadow: 0 4px 6px -6px #1F1F1F;
+    -moz-box-shadow: 0 4px 6px -6px #1F1F1F;
+    box-shadow: 0 4px 6px -6px #1F1F1F;
+    margin-bottom: 25px;
+    margin-top: -10px;
+    padding-bottom: 10px;
+}
+
+.lineContend {
+    margin-bottom: 16px;
+    padding: 20px;
+    background: white !important;
+    border: 1px solid rgba(81, 93, 110, 0.2);
+    -webkit-box-shadow: 0 4px 6px -6px #1F1F1F;
+    -moz-box-shadow: 0 4px 6px -6px #1F1F1F;
+    box-shadow: 0 4px 6px -6px #1F1F1F;
+    border-radius: 4px;
+}
+
+.boxTitle i{
+  margin-right: 10px;
+}
+
+.panelFooterTitle{
+  font-size: 14px;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+}
+
+.PanelButton{
+  margin-top: -4px;
+}

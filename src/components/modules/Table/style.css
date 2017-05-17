@@ -1,0 +1,25 @@
+button.dropdown-toggle:focus+ul.dropdown-menu {
+    display: block !important;
+}
+
+.react-bs-table-pagination ul.dropdown-menu:hover {
+    display: block !important;
+}
+
+.react-bs-table .react-bs-container-body {
+    margin-top: -18px;
+}
+
+.btn.hidden-print, .btn.react-bs-table-add-btn{
+    background: transparent;
+    border: 0;
+    color: #515d6e;
+    text-decoration: underline;
+}
+
+.btn.hidden-print i, .btn.react-bs-table-add-btn i{
+    margin-right: 5px;
+}
+.react-bs-table-pagination, .react-bs-table-tool-bar{
+  padding: 0 5px;
+}

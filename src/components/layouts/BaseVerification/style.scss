@@ -1,0 +1,20 @@
+body{
+  color:#6b6b6b;
+}
+#pageMainContainer{
+  background: #E0B65E;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+#bgImage{
+  position: absolute;
+  left:20px;
+  bottom: 0;
+}
+
+.modal-backdrop.in {
+    opacity: 0;
+    filter: alpha(opacity=0);
+}

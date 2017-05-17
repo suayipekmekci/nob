@@ -1,0 +1,26 @@
+#nofoundContainer{
+  background: #E0B65E;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  color:#fff;
+}
+#nofoundInner{
+  height: 100vh;
+  line-height: 100vh;
+}
+#notPage{
+  height: 100vh;
+  line-height: 100vh;
+  position: absolute;
+  z-index: 99999;
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+}
+#bgImage{
+  position: absolute;
+  left:20px;
+  bottom: 0;
+  z-index: 88;
+}

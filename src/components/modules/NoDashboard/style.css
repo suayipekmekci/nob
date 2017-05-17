@@ -1,0 +1,40 @@
+.dashboardEmptyContainer{
+  margin: 0 5px 15px 5px;
+  padding: 0px;
+  text-align: center;
+  min-height: 600px;
+  background: #e2b85f;
+  border-radius: 8px;
+}
+.dashboardArrow{
+  background: url(../../../common/images/arrow_dashboard.svg) no-repeat right top;
+  height: 25vw;
+  max-height: 90%;
+  right: 4px;
+  top: 4px;
+  width: 25vw;
+  min-width: 220px;
+  max-width: 340px;
+  position: absolute;
+}
+.dashboardIcon{
+  background: url(../../../common/images/icon_dashboard.svg) no-repeat bottom;
+  width: 96px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 96px;
+  padding-top: 190px;
+}
+.dashboardEmptyTitle{
+  font-weight: lighter;
+  padding-top: 30px;
+  line-height: 1.4;
+  text-align: center;
+}
+.dashboardEmptyText{
+  font-size: 1.1em;
+  font-weight: lighter;
+  padding-top: 5px;
+  line-height: 1.4;
+  text-align: center;
+}

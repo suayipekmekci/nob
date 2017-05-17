@@ -1,0 +1,70 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed);
+.rad-info-box {
+    margin-bottom: 16px;
+    box-shadow: 1px 1px 2px 0 #CCCCCC;
+    padding: 20px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    background: white !important;
+}
+.summaryBigIcon i {
+    display: block;
+    background-clip: padding-box;
+    margin-right: 15px;
+    width: 60px;
+    border-radius: 100%;
+    line-height: 60px;
+    text-align: center;
+    font-size: 9.4em;
+    position: absolute;
+    color: #1abc9c;
+    margin-top: 18px;
+    opacity: 0.5;
+}
+.rad-info-box .value, .rad-info-box .heading {
+    display: block;
+    position: relative;
+    color: #515d6e;
+    text-align: right;
+    z-index: 10;
+}
+.rad-info-box .heading {
+    font-size: 1.2em;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.rad-info-box .value {
+    font-size: 2.1em;
+    font-weight: 600;
+    margin-top: 5px;
+}
+.trend i {
+    font-size: 1.2em;
+    margin-top: 2px;
+    float: right;
+    margin-right: 5px;
+    margin-top: 7px;
+}
+.trend .trendPercent {
+    margin-top: 7px;
+}
+.summarySelectBox {
+    float: right;
+    width: 150px;
+    margin-right: -10px;
+}
+.summarySelectBox .Select-control {
+    background-color: transparent !important;
+    border-color: transparent !important;
+    border-radius: 0 !important;
+    border: 0 !important;
+}
+.summarySelectBox .Select-clear-zone {
+    text-align: right;
+    width: 30px;
+}
+.summarySelectBox section {
+    width: 100%;
+}
+.summarySelectBox .Select-clear-zone {
+    display: none;
+}

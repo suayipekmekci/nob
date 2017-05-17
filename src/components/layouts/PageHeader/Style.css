@@ -1,0 +1,19 @@
+ul.breadcrumb{
+  padding: 8px 0px;
+  margin-bottom: 25px;
+  list-style: none;
+  background-color: transparent;
+  font-weight: bold;
+  font-size: 16px;
+  border-bottom: 1px solid rgba(81, 93, 110, 0.16);
+  border-radius: 0;
+}
+
+ul.breadcrumb i{
+  font-size: 22px;
+  margin-right: 5px;
+}
+
+ul.breadcrumb > .active {
+    color: rgba(81, 93, 110, 0.65);
+}

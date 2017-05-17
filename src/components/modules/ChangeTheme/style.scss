@@ -1,0 +1,123 @@
+@import "./colorSet.scss";
+
+body.dayStyle{
+  background: $dayBodyBg;
+  color: $dayTextDefault;
+
+  #DashboardContainer{
+    color: $lightText;
+  }
+
+  .slick-prev:before, .slick-next:before, .topMenuToggleBtn{
+    color: $lightText;
+  }
+
+  .dashboardEmptyContainer{
+    background: $dayTopContentBg;
+  }
+
+  #headerTop{
+    background: $dayTopHeaderBg;
+  }
+
+  .lineContend{
+    background:$dayTopContentBg !important;
+    color:$dayTextDefault !important;
+  }
+
+  .react-bs-table-search-form input, .react-bs-table-pagination button, .pagination li a{
+    background:$dayTopContentBg !important;
+    color:$dayTextDefault !important;
+    border-color:$borderColor !important;
+  }
+
+  .pagination li.active a{
+    background:$dayTextDefault !important;
+    color:$dayTopContentBg !important;
+  }
+
+  .boxTitle{
+    color:$dayTextDefault;
+  }
+
+  .table-bordered > thead > tr > th, td{
+    border: $dayTableBorder !important;
+  }
+}
+
+body.nightStyle{
+  background: $nightBodyBg;
+  color: $nightTextDefault;
+
+  #DashboardContainer{
+    color: $darkText;
+  }
+
+  .slick-prev:before, .slick-next:before, .topMenuToggleBtn{
+    color: $darkText;
+  }
+
+  .dashboardEmptyContainer{
+    background: $nightTopContentBg;
+  }
+
+  #headerTop{
+    background: $nightTopHeaderBg;
+  }
+
+  .lineContend{
+    background:$nightTopContentBg !important;
+    color:$nightTextDefault !important;
+  }
+
+  .react-bs-table-search-form input, .react-bs-table-pagination button, .pagination li a{
+    background:$nightTopContentBg !important;
+    color:$nightTextDefault !important;
+    border-color:$borderColor !important;
+  }
+
+  .pagination li.active a{
+    background:$nightTextDefault !important;
+    color:$nightTopContentBg !important;
+  }
+
+  .boxTitle{
+    color:$nightTextDefault;
+  }
+
+  .table-bordered > thead > tr > th, td{
+    border: $nightTableBorder !important;
+  }
+
+}
+
+.g-c{
+  color:$goldenColor;
+}
+
+#themeChange {
+    position: relative;
+    width: 23px;
+    height: 20px;
+}
+.theme1 {
+    position: absolute;
+    z-index: 1;
+    margin-left: -5px;
+}
+.theme2 {
+    position: absolute;
+    z-index: 1;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.themeBtnColor0{
+    background: #fff;
+}
+.themeBtnColor1{
+    background: #5b5b5b;
+}
+.themeBtnColor2 {
+    background: #262626;
+}

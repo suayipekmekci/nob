@@ -1,0 +1,25 @@
+#UserTop {
+    height: 60px;
+    position: relative;
+}
+
+#UserLeftList {
+    list-style: none;
+    float: left;
+    margin: 20px 0;
+    padding: 0;
+}
+
+#UserLeftList li {
+    float: left;
+    margin-right: 30px;
+    cursor: pointer;
+
+    &:hover{
+        color: #e2b85f;
+    }
+
+    &.activeColor{
+        color: #e2b85f;
+    }
+}

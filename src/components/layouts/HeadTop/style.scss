@@ -1,0 +1,44 @@
+#headerTop {
+    height: 60px;
+    position: relative;
+    background: #000;
+}
+
+#headerLogo {
+    width: 128px;
+    height: 31px;
+    overflow: hidden;
+    margin-top: 15px;
+}
+
+#headerRightList {
+    list-style: none;
+    float: right;
+    margin: 20px 0;
+    padding: 0;
+}
+
+#headerRightList li {
+    float: left;
+    margin-left: 30px;
+    cursor: pointer;
+
+    &:hover{
+        color: #e2b85f;
+    }
+
+    &.activeColor{
+        color: #e2b85f;
+    }
+}
+
+.arrowdefault {
+    margin-left: 10px;
+}
+
+.themeColor {
+    width: 16px;
+    height: 12px;
+    border: 1px solid #343434;
+    cursor: pointer;
+}
