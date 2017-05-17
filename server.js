@@ -67,7 +67,7 @@ if (!process.env.PRODUCTION) {
   var config = require('./webpack.local.config');
 
   new WebpackDevServer(webpack(config), {
-      headers: { "Access-Control-Allow-Origin": "http://localhost:8080", "Access-Control-Allow-Credentials": "true" },
+      headers: { "Access-Control-Allow-Origin": "*", "Access-Control-Allow-Credentials": "true" },
       publicPath: config.output.publicPath,
       hot: true,
       noInfo: true,
